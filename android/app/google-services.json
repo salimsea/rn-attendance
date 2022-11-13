@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182771268403",
+    "project_id": "swg-salamabsen",
+    "storage_bucket": "swg-salamabsen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182771268403:android:1943622184d0c23407dc46",
+        "android_client_info": {
+          "package_name": "com.salam.absensi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182771268403-14miem6a0ilndeh6a0cmmrrrrba84rav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FMcWuBLC5fwENnAAo6S5AAuXRUw_TiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182771268403-14miem6a0ilndeh6a0cmmrrrrba84rav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
