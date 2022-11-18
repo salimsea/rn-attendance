@@ -68,7 +68,7 @@ const Home = ({navigation}) => {
             </Animated.View>
 
             {/* SECTION CONTENT */}
-            <SectionContent scrollA={scrollA} />
+            <SectionContent />
           </Animated.ScrollView>
         </View>
       </View>

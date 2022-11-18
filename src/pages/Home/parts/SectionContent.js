@@ -8,21 +8,8 @@ import {useSelector} from 'react-redux';
 import {FUNCGetMonth} from '../../../config/function/common';
 import {heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
-const SectionContent = ({scrollA}) => {
-  const isFloating = !!scrollA;
-  const [isTransparent, setTransparent] = useState(isFloating);
+const SectionContent = () => {
   const {dataPegawaiKehadiran} = useSelector(state => state.presenceReducer);
-  useEffect(() => {
-    if (!scrollA) {
-      return;
-    }
-    const listenerId = scrollA.addListener(a => {
-      const topNaviOffset = 400 - 100 - getStatusBarHeight();
-      isTransparent !== a.value < topNaviOffset &&
-        setTransparent(!isTransparent);
-    });
-    return () => scrollA.removeListener(listenerId);
-  });
   return (
     <View
       style={{
